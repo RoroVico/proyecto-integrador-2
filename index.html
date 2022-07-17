@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon-inicio.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rocío Ailén Vico</title>
+    
+</head>
+<body>
+    
+    <!-- MENU PRINCIPAL -->
+    <header>
+        <a href="#inicio" aria-label="Ir a la sección de inicio" class="icon-inicio">
+            <img src="img/icon-inicio.png" alt="code-icon">
+        </a>
+        
+        <!-- Boton hamburguesa -->
+        <button id="menu-button">
+            <img src="img/open-menu.svg" id="open-menu">
+            <img src="img/close-menu.svg" id="close-menu">
+        </button>
+        
+        <nav>
+            <ul id="menu">
+                <li class="menu-item active">
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main>
+    <!-- INICIO -->
+        <section id="inicio">
+            <figure class="presentacion-img">
+                <img src="img/foto-presentacion.jpg" alt="Foto-presentacion">
+            </figure>
+            <article class="presentacion">
+                <h1>Hola! Soy Ro</h1>
+                <p>Actulamente me encuentro ejerciendo como docente para escuelas secundarias técnicas estatales especializadas en publicidad y estudiando programación ya que deseo trabajar como Font-end developer algún día! 
+                Para más información sobre mi trayecto académico y laboral, haz click en "descargar mi CV", ¡gracias!
+                </p>
+
+            <!-- boton falso -->
+                <a href="img/Vico Rocio CV.png" aria-label="Descargar cv" target="_blank" class="btn">Descargar mi CV</a>
+            </article>
+        </section>
+
+    <!-- CONTACTO -->
+        <section id="contacto">
+            <article class="hablemos">
+                <h2>Hablemos!</h2>
+                <p>Si te interesa contactarme, acá abajo te dejo el acceso a mi Github donde podrás encontrar mis repositorios públicos recientes, mi linkedin y mi mail. Todo al alcance de un click!</p>
+            </article>
+
+            <ul id="contact-links">
+                <li>
+                    <a href="mailto:rociovicoailen@gmail.com?subject=Contacto&body=Hola!%20Encontr%C3%A9%20tu%20direcci%C3%B3n%20de%20mail%20gracias%20a%20tu%20p%C3%A1gina%20web%2C%20te%20contacto%20para..." target="_blank" aria-label="Enviar mail">
+                        <img src="img/mail.png" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RoroVico" target="_blank" aria-label="Ir al perfil de github">
+                        <img src="img/github.png" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com//" target="_blank" aria-label="Ir al perfil de linkedin">
+                        <img src="img/linkedin.png" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Código Latam</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
