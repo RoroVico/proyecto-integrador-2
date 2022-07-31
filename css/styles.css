@@ -229,8 +229,7 @@ footer {
     background-color: #ffad64;
     color: #fbfbfb;
 }
-
-#footer-text {
+footer p {
 	text-align: center
 }
 
