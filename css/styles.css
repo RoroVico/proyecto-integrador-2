@@ -278,14 +278,15 @@ footer {
     body.mobile-menu-active header {
 		height: 90px;
 		align-items: center;
-	}
-	body.mobile-menu-active nav {
+    }
+    
+    body.mobile-menu-active nav {
 		height: auto;
 		width: auto;
-	}
+    }
 
-	body.mobile-menu-active ul#menu {
+    body.mobile-menu-active ul#menu {
 		flex-direction: row;
-	}
+    }
 
 }
