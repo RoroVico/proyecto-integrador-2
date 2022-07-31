@@ -230,6 +230,10 @@ footer {
     color: #fbfbfb;
 }
 
+#footer-text {
+	text-align: center
+}
+
 
 /* Desktop */
 
