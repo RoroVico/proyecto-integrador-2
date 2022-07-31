@@ -52,6 +52,7 @@ h2 {
 
 p {
     margin: 16px 0;
+    text-align: center
 }
 
 /* Responsive */
@@ -229,11 +230,6 @@ footer {
     background-color: #ffad64;
     color: #fbfbfb;
 }
-
-footer p {
-	text-align: center
-}
-
 
 /* Desktop */
 
